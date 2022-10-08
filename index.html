@@ -1,0 +1,77 @@
+<html>
+<title>RocketNoodle's blog</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/rocket.css">
+<link rel="stylesheet" href="css/css_for_a_button_that_is_one_page_long_to_make_people_with_low_latency_mad.css">
+<body>
+<style>
+html {
+background: url('panart.png');
+}
+</style>
+<div class="header">
+	<div class="banner"><img src="images/rocket.png" height="60"><h1>Rocketnoodle</h1>blog</div>
+<section class="navbar">
+  <menu role="tablist" aria-label="Sample Tabs">
+<button  role="tab" aria-selected="true" aria-controls="tab-A" >blog</button>
+<button  role="tab"						 aria-controls="tab-B">videos</button>
+<button  role="tab"						 aria-controls="tab-C">photography</button>
+<button  role="tab"						 aria-controls="tab-D">art</button>
+<button  role="tab"						 aria-controls="tab-E">contact</button>
+  </menu>
+  <!-- the tab content -->
+  <article role="tabpanel" id="tab-A">
+    <h2>About</h2>
+    <p>
+      Hello world! I am RocketNoodle, I've chosen the name after my favourite fictional restaurant. I am an artist and a web designer.
+    </p>
+    <p>
+  </article>
+  <article role="tabpanel" hidden id="tab-B" style="height:400px;">
+	<div class="flexbox">
+	<div class="videos"><a href="https://www.youtube.com/watch?v=n_6Zm_hZC9I"><img src="images/mqdefault_6s.webp"><h2>Tf2 random encounters #2</h2></a></div><div class="videos"><a href="https://www.youtube.com/watch?v=LChLytLFIF8&t=286s"><img src="images/mqdefault_7s.webp"><h2>Tf2 random encounters #1</h2></a></div>
+	</div>
+</article>
+  <article role="tabpanel" hidden id="tab-C" style="height:300px;">
+    <h3>Phone photos</h3>
+    <p>These are mostly photos that I took without remembering it.</p>
+	<div class="flexbox">
+	<div class="photos"><img src="photos/IMG_20180523_080131.jpg"></div>
+	<div class="photos"><img src="photos/photo_2021-09-15_21-42-24.jpg"></div>
+	<div class="photos"><img src="photos/IMG_20180806_103849.jpg"></div>
+	<div class="photos"><img src="photos/103.jpg"></div>
+	<div class="photos"><img src="photos/photo_2020-10-01_21-43-00.jpg"></div>
+	<div class="photos"><img src="photos/photo_2020-02-22_18-17-56.jpg"></div>
+	<div class="photos"><img src="photos/photo_2021-02-09_03-10-14.jpg"></div>
+	<div class="photos"><img src="photos/482.jpg"></div>
+	</div>
+  </article>
+  <article role="tabpanel" hidden id="tab-D">
+  <h3>More...</h3>
+    <p>This tab contains a GroupBox</p>
+    <fieldset>
+      <legend>Today's mood</legend>
+      <div class="field-row">
+        <label for="radio10">Claire Saffitz</label>
+      </div>
+      <div class="field-row">
+        <label for="radio11">Brad Leone</label>
+      </div>
+      <div class="field-row">
+        <label for="radio12">Chris Morocco</label>
+      </div>
+      <div class="field-row">
+        <label for="radio13">Carla Lalli Music</label>
+      </div>
+    </fieldset>
+  </article>
+  <article role="tabpanel" hidden id="tab-E"  style="width:700px;height:400px;margin-left:405px;">
+    <h3>Tab 3</h3>
+    <p>Lorem Ipsum Dolor Sit</p>
+  </article>
+</section>
+<script src="js/script.js" ></script>
+</div>
+<footer><blockquote><p>website by RocketNoodle</p></blockquote></footer>
+</body>
+</html>
